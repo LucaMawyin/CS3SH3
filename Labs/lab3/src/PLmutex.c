@@ -46,8 +46,8 @@ int main(int argc, char *argv[])
     int deposit_amount = atoi(argv[1]);
     int withdraw_amount = atoi(argv[2]);
 
-    printf("Deposit amount: %d\n", deposit_amount);
-    printf("Withdrawal amount: %d\n", withdraw_amount);
+    printf("Deposit amount = %d\n", amount);
+    printf("Withdrawal amount = %d\n", amount);
 
     pthread_t threads[THREAD_COUNT];
     pthread_mutex_init(&mutex, NULL);
